@@ -16,9 +16,6 @@
             android:name=".MyReceiver"
             android:enabled="true"
             android:exported="true">
-            <intent-filter>
-                <action android:name="dev.gan0803.broadcastreceiver.TEST" />
-            </intent-filter>
         </receiver>
 
         <activity
